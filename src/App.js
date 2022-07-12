@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./pictures/Logo.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div>
+      <div className="container">
+        <nav>
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
+          <ul id="nav_list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <p id="description">
+          This is Bechir Ghouma, FullStack js developer, passionate about
+          software engineering and ready to offer my new perspective that is
+          fueled by my ambitions.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
