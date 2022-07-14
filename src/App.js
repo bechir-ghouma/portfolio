@@ -8,20 +8,33 @@ function App() {
       <div className="container">
         <nav>
           <a href="/">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="logo" />
           </a>
-          <ul id="nav_list">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Projects</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
           </ul>
+          <img src="" alt="cart-icon" className="cart-icon" />
         </nav>
-        <p id="description">
-          This is Bechir Ghouma, FullStack js developer, passionate about
-          software engineering and ready to offer my new perspective that is
-          fueled by my ambitions.
-        </p>
+        <div className="text-box">
+          <p id="description">
+            {/* This is Bechir Ghouma, FullStack js developer, passionate about
+            software engineering and ready to offer my new perspective that is
+            fueled by my ambitions. */}
+            I'M
+          </p>
+          <h1>BECHIR</h1>
+          <h3>I MAKE FULLSTACK APPLICATIONS FOR CUSTOMERS AND COMPANIES</h3>
+          <a href="">Explore My Portfolio</a>
+          <a href="">Connect With Me</a>
+        </div>
       </div>
     </div>
   );
