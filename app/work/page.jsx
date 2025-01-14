@@ -13,33 +13,34 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
   {
     num: '01',
-    category: 'frontend',
-    title: 'project 1',
-    description:'khoudh alfin o aameli chicha modoeoma hanakona ya batako! meha hein heinkkk.',
-    stack: [{name: 'Html 5'}, {name: 'CSS 3'}, {name: 'JavaScript'}],
-    image: '/assets/image.png',
+    category: 'FullStack',
+    title: 'Time Delivery',
+    description:'Built a food delivery app using React Native, Express and MySQL, with separate dashboards for admins, clients, delivery drivers, and restaurants.',
+    stack: [{name: 'React Native'}, {name: 'Express JS'}, {name: 'MySQL'}, {name: 'Socket.io'}],
+    image: '/portfolioTimedelivery.png',
     live:'',
-    github:'github.com/repos'
+    github:'github.com/orgs/time-delivery/repositories'
+   
   },
   {
     num: '02',
-    category: 'frontend',
-    title: 'project 2',
-    description:'khoudh alfin o aameli chicha modoeoma hanakona ya batako! meha hein heinkkk.',
-    stack: [{name: 'Html 5'}, {name: 'CSS 3'}, {name: 'JavaScript'}],
-    image: '/assets/image.png',
+    category: 'FullStack',
+    title: 'Escape',
+    description:'Engineered an online marketplace focused on camping products with advanced features using React.js, Express.js, and MySQL; implemented user-friendly admin controls to enhance the tracking of over 1,000 product listings.',
+    stack: [{name: 'React JS'}, {name: 'Tailwind css'}, {name: 'Express JS'}, {name: 'MySQL'}],
+    image: '/portfolioEscape.png',
     live:'',
-    github:'github.com/repos'
+    github:'github.com/bechir-ghouma/Escape'
   },
   {
     num: '03',
-    category: 'frontend',
-    title: 'project 3',
-    description:'khoudh alfin o aameli chicha modoeoma hanakona ya batako! meha hein heinkkk.',
-    stack: [{name: 'Html 5'}, {name: 'CSS 3'}, {name: 'JavaScript'}],
-    image: '/assets/image.png',
+    category: 'FullStack',
+    title: 'Accounting Software',
+    description:'Designed accounting software with an automated data import tool to eliminate manual entry from spreadsheets, streamlining data integration and management.',
+    stack: [{name: 'React.js'}, {name: 'Express.js'}, {name: 'MySQL'}],
+    image: '/Software_portfolio.png',
     live:'',
-    github:'github.com/repos'
+    github:'github.com/bechir-ghouma/hardware-store'
   }
 ]
 
@@ -82,7 +83,7 @@ const Work = () => {
               </ul>
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                {/* <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -93,8 +94,8 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
-                <Link href={project.github}>
+                </Link> */}
+                <a href={`https://${project.github}`} target="_blank" rel="noopener noreferrer">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -105,7 +106,8 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </a>
+
               </div>
             </div>
           </div>
@@ -113,12 +115,12 @@ const Work = () => {
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
-              className="xl:h-[520px] mb-12"
+              className="xl:h-[560px] mb-12"
               onSlideChange={handleSlideChange}
             >
               {projects.map((project,index)=> {
                 return <SwiperSlide key={index} className="w-full">
-                  <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                  <div className="h-[500px] relative group flex justify-center items-center bg-pink-50/20">
                     <div className="absolute top-0 bottom-0 w-fell h-full bg-black/10 z-10"></div>
                     <div className="relative w-full h-full">
                       <Image src={project.image} fill className="object-cover" alt=""/>

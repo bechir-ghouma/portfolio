@@ -85,7 +85,7 @@ const services = [
     num: '01',
     title: 'Web Development',
     description: 'Creating responsive and dynamic websites tailored to your needs.',
-    details: 'Our web development services include full-stack development, responsive design, CMS integration, e-commerce solutions, and web application development using the latest technologies and frameworks.',
+    details: 'Our web development services include full-stack development, responsive design, e-commerce solutions, and web application development using the latest technologies and frameworks.',
   },
   {
     num: '02',
@@ -96,8 +96,8 @@ const services = [
   {
     num: '03',
     title: 'Software Development',
-    description: 'Designing and implementing robust software solutions.',
-    details: 'Custom software development services including desktop applications, enterprise software, cloud solutions, and API development with a focus on scalability and maintainability.',
+    description: 'Designing and implementing effective, robust software solutions to meet diverse needs and challenges.',
+    details: 'Custom software development services including desktop applications, enterprise software and accounting software.',
   },
   {
     num: '04',

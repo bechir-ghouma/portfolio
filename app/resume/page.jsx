@@ -7,7 +7,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const about = {
   title: 'About me',
-  description: 'na lboshrem weld hanna okay cv je suis un developpeur mobile o web thena okiiiiiiiiiiiiiiiiiiiii ',
+  description: 'As a Frontend Developer, I build dynamic, user-friendly web/mobile applications, focusing on seamless and visually appealing interfaces.',
   info: [
     {
       fieldName: "Name",
@@ -47,7 +47,7 @@ const about = {
 const experience = {
   icon: '',
   title: 'My experience',
-  description: 'na lboshrem weld hanna okay cv je suis un developpeur mobile o web thena okiiiiiiiiiiiiiiiiiiiii ',
+  description: 'As a Frontend Developer, I build dynamic, user-friendly web/mobile applications, focusing on seamless and visually appealing interfaces.',
   items: [
     {
       company: "Rebootkamp Tunisia",
@@ -76,7 +76,7 @@ const experience = {
 const education = {
   icon: '',
   title: 'My education',
-  description: 'na lboshrem weld hanna okay cv je suis un developpeur mobile o web thena okiiiiiiiiiiiiiiiiiiiii ',
+  description: 'As a Frontend Developer, I build dynamic, user-friendly web/mobile applications, focusing on seamless and visually appealing interfaces.',
   items: [
     {
       institution: "Dreams N Motion",
@@ -103,7 +103,7 @@ const education = {
 
 const skills = {
   title: 'My skills',
-  description:'na lboshrem weld hanna okay cv je suis un developpeur mobile o web thena okiiiiiiiiiiiiiiiiiiiii ',
+  description:'As a Frontend Developer, I build dynamic, user-friendly web/mobile applications, focusing on seamless and visually appealing interfaces.',
   skillList: [
     {
       icon: <FaHtml5 />,
