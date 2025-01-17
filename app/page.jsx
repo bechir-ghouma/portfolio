@@ -24,7 +24,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-             <a  href="/assetes/bechir_ghouma.pdf"
+             <a  href="/assetes/bechir_ghouma_fr.pdf"
                 download="Bechir_Ghouma_CV.pdf"
               >
               <span>Download CV</span>
