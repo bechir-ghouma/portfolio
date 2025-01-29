@@ -97,7 +97,7 @@ const services = [
     num: '03',
     title: 'Software Development',
     description: 'Designing and implementing effective, robust software solutions to meet diverse needs and challenges.',
-    details: 'Custom software development services including desktop applications, enterprise software and accounting software.',
+    details: 'Custom software development services, enterprise software and accounting software.',
   },
   {
     num: '04',
